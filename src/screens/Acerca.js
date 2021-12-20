@@ -4,7 +4,6 @@ import {useNetInfo} from '@react-native-community/netinfo';
 
 export function AcercaDe({navigation}) {
   const netInfo = useNetInfo();
-  console.log('hola', netInfo);
   return (
     <View
       style={{
